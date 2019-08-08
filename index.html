@@ -8,8 +8,18 @@
   <link rel="stylesheet" href="src/css/home.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
 
+<script>
+    window.onload = function test() {
+        var x = document.cookie;
+        if(x.length != 0){
+            document.cookie = "You found me :D";
+        }
+    } 
+</script>
+
+
+<body>
 <div class="jumbotron text-center" style="margin-bottom:0;">
     <h1>Meine erste Website</h1>
     <p>...oder zumindest der Versuch</p> 
