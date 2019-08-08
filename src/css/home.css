@@ -1,5 +1,5 @@
 .Profilbild {
-    width: 180px;
+    width: auto;
     height: 210px;
     background: #aaa;
   }
@@ -14,3 +14,16 @@
     background: rgba(170, 170, 170, 0.267)
 }
 
+.backround{
+  background: url(src/Bilder/P1000789.jpg);
+  alt: "Iceland/Reykjavik";
+  max-width: 100%; 
+  height: auto; 
+}
+
+body{
+  background: url(src/Bilder/P1000789.jpg) no-repeat center center fixed;
+  alt: "Iceland/Reykjavik";
+  max-width: 100%; 
+  height: auto;
+}
