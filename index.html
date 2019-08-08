@@ -1,84 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Hello World</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="src/css/home.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hello World</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <script>
     window.onload = function test() {
         var x = document.cookie;
-        if(x.length != 0){
+        if (x.length != 0) {
             document.cookie = "You found me :D";
         }
-    } 
+    }
 </script>
 
 
 <body>
-<div class="jumbotron text-center" style="margin-bottom:0;">
-    <h1>Meine erste Website</h1>
-    <p>...oder zumindest der Versuch</p> 
-    <img class="backround" src="src/Bilder/P1000789.jpeg">
-</div>
+    <div class="jumbotron text-center" style="margin-bottom:0;">
+        <h1>Meine erste Website</h1>
+        <p>...oder zumindest der Versuch</p>
+        <img class="backround" src="src/Bilder/P1000789.jpeg">
+    </div>
 
-<div class="container" style="margin-top:30px">
-    <div class="row">
-        <div class="col-sm-4">
-            <section>
-                <h2>Das bin ich:</h2>
-                <img class="Profilbild" src="src/Bilder/Profilbild.jpeg" alt="Das bin ich :D">
-            </section>
-            <section>
-                <p>Coder, Sportler und einfach Happy 😄</p>
-                <p>Wo kann man mich finden?</p>
-                <ul class="nav nav-pills flex-column">
-                    <li class="nav-item">
-                        <a href="https://github.com/Darker97" class="nav-link active">🖥 Github</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.linkedin.com/in/christian-baltzer-7bbb84174" class="nav-link">📩 Linkedin</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">📓 Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="src/html/videos.html">📺 Videos</a>
-                    </li>
-                </ul>
-            </section>
-        </div>
-        <div class="col-sm-8">
-            <h1>Meine Projekte</h1>
-            <article>
-                <div class="github-card" data-github="Darker97/nitro#" data-width="400" data-height="150" data-theme="default"></div>
-                <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>              
-            </article>
-            <article>
-                <div class="github-card" data-github="chaoswithleds/smaht-Stirnband" data-width="400" data-height="" data-theme="default"></div>
-                <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>             
-            </article>
-            <article>
-                <div class="github-card" data-github="Darker97/Buchhaltung-in-der-Blockchain" data-width="400" data-height="" data-theme="default"></div>
-                <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>               
-            </article>
-            <article>
-                <div class="github-card" data-github="Darker97/skynetForCatsAndDogs" data-width="400" data-height="" data-theme="default"></div>
-                <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>               
-            </article>
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+            <div class="col-sm-4">
+                <section>
+                    <h2>Das bin ich:</h2>
+                    <img class="Profilbild" src="src/Bilder/Profilbild.jpeg" alt="Das bin ich :D">
+                </section>
+                <section>
+                    <p>Coder, Sportler und einfach Happy 😄</p>
+                    <p>Wo kann man mich finden?</p>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a href="https://github.com/Darker97" class="nav-link active">🖥 Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.linkedin.com/in/christian-baltzer-7bbb84174" class="nav-link">📩
+                                Linkedin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">📓 Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="src/html/videos.html">📺 Videos</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="col-sm-8">
+                <h1>Meine Projekte</h1>
+                <article>
+                    <div class="github-card" data-github="Darker97/nitro#" data-width="400" data-height="150"
+                        data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                </article>
+                <article>
+                    <div class="github-card" data-github="chaoswithleds/smaht-Stirnband" data-width="400" data-height=""
+                        data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                </article>
+                <article>
+                    <div class="github-card" data-github="Darker97/Buchhaltung-in-der-Blockchain" data-width="400"
+                        data-height="" data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                </article>
+                <article>
+                    <div class="github-card" data-github="Darker97/skynetForCatsAndDogs" data-width="400" data-height=""
+                        data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                </article>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Den gesammten Code zu dieser Seite findest du hier:</p>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <p>Den gesammten Code zu dieser Seite findest du hier:</p>
         <a class="link" href="https://github.com/Darker97/MeineErsteWebsite">Meine erste Website</a>
-</div>
+    </div>
 
 </body>
-</html>
 
+</html>
